@@ -9,6 +9,7 @@ jobs:
   deploy:
     name: Deploy to EC2 via SSH
     runs-on: ubuntu-latest
+    environment: production  # Replace with your environment name
 
     steps:
       - name: Checkout code (optional)
